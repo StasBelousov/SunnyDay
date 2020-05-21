@@ -1,5 +1,5 @@
 //
-//  CityModel.swift
+//  Constants.swift
 //  SunnyDay
 //
 //  Created by Станислав Белоусов on 16/05/2020.
@@ -8,10 +8,4 @@
 
 import Foundation
 
-struct City {
-    var name: String
-    var temperature: Int
-    var weatherIcon: String
-    var cityID: Int
-    var isFavorite: Bool
-}
+let apiKey = "397524c94e750007153260c0960f6c05"

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1928CDE4247432A400542AF3 /* CityDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1928CDE3247432A400542AF3 /* CityDetailVC.swift */; };
 		1982FE96246EE0ED001DDD27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1982FE95246EE0ED001DDD27 /* AppDelegate.swift */; };
 		1982FE98246EE0ED001DDD27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1982FE97246EE0ED001DDD27 /* SceneDelegate.swift */; };
 		1982FE9A246EE0ED001DDD27 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1982FE99246EE0ED001DDD27 /* MainViewController.swift */; };
 		1982FE9D246EE0ED001DDD27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1982FE9B246EE0ED001DDD27 /* Main.storyboard */; };
 		1982FE9F246EE0F1001DDD27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1982FE9E246EE0F1001DDD27 /* Assets.xcassets */; };
 		1982FEA2246EE0F1001DDD27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1982FEA0246EE0F1001DDD27 /* LaunchScreen.storyboard */; };
-		1982FEB2246FF67E001DDD27 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1982FEB1246FF67E001DDD27 /* CityModel.swift */; };
 		1982FEB4246FF6B8001DDD27 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1982FEB3246FF6B8001DDD27 /* MainTableViewCell.swift */; };
 		1982FEB624701567001DDD27 /* TableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1982FEB524701567001DDD27 /* TableViewManager.swift */; };
 		19B566F5247035400033ACF5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B566F4247035400033ACF5 /* NetworkManager.swift */; };
@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1928CDE3247432A400542AF3 /* CityDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailVC.swift; sourceTree = "<group>"; };
 		1982FE92246EE0ED001DDD27 /* SunnyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1982FE95246EE0ED001DDD27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1982FE97246EE0ED001DDD27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		1982FE9E246EE0F1001DDD27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1982FEA1246EE0F1001DDD27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1982FEA3246EE0F1001DDD27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1982FEB1246FF67E001DDD27 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		1982FEB3246FF6B8001DDD27 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		1982FEB524701567001DDD27 /* TableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewManager.swift; sourceTree = "<group>"; };
 		19B566F4247035400033ACF5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -92,6 +92,7 @@
 			children = (
 				1982FE99246EE0ED001DDD27 /* MainViewController.swift */,
 				1982FEB3246FF6B8001DDD27 /* MainTableViewCell.swift */,
+				1928CDE3247432A400542AF3 /* CityDetailVC.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -112,7 +113,6 @@
 		1982FEAC246EE227001DDD27 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1982FEB1246FF67E001DDD27 /* CityModel.swift */,
 				19B566F4247035400033ACF5 /* NetworkManager.swift */,
 				19B566F8247045180033ACF5 /* WeatherData.swift */,
 				19B566FA247068000033ACF5 /* CurrentWeather.swift */,
@@ -191,7 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1982FEB2246FF67E001DDD27 /* CityModel.swift in Sources */,
+				1928CDE4247432A400542AF3 /* CityDetailVC.swift in Sources */,
 				1982FEB624701567001DDD27 /* TableViewManager.swift in Sources */,
 				1982FE9A246EE0ED001DDD27 /* MainViewController.swift in Sources */,
 				19B566F5247035400033ACF5 /* NetworkManager.swift in Sources */,
